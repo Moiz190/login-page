@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+@font-face{
+    font-family: 'Harmonia';
+    src: url('Harmonia/HarmoniaSansProCyr-Regular.tff') format('truetype'), 
+    url('Harmonia/HarmoniaSansProCyr-Light.ttf') format('truetype');
+}
+body{
+    font-family: 'Harmonia';
+}   
+
+ /* utility classes */
+.text-center{
+    text-align: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.margin-auto{
+    margin: auto;
+}
+.absolute{
+    position: absolute;
+}
+        /* form-section */
+.gradient{
+    background: linear-gradient(to bottom, #FD4869, #922DA4);
+    height: 100vh;
+    border:10px solid white;
+    border-radius:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.gradient > div{
+    width: 50%;
+}
+.admin-logo{
+    max-width: 200px;
+}   
+.login-form-container{
+    width: 70%; 
+    min-width: 380px;
+    max-width: 450px;
+    background-color: #ffffff;
+    padding: 3rem 4rem 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.login-form-container >h2{
+    color: #606266;
+    letter-spacing: 1px;
+}
+.login-form-container input{
+    width: 100%;
+    margin: 0.9rem 0;
+	padding:0.9rem;
+}
+#btn{
+    color: #ffffff;
+    background-color: #3498db;
+    border: 0;
+    border-radius: 3px;
+}
+
+    /* picture-section */
+.i-button{
+    width: 2rem;
+    right: 1.1rem;
+    top: 1.1rem;
+    cursor: pointer;
+}
+.copyright-content
+{
+    left: 70%;
+    bottom: 2rem;
+    transform: translateX(-25%);
+    color: #E297E6;    
+}  
+
